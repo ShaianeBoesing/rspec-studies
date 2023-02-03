@@ -1,4 +1,4 @@
-RSpec.describe [1,2,3], "Array" do 
+RSpec.describe [1,2,3], "Array", :collection do 
     it "#include" do 
         expect(subject).to include(2,1)
     end
